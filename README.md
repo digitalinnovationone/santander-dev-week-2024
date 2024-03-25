@@ -7,14 +7,14 @@ Ainda não se inscreveu!? Então corre que ainda da tempo, as inscrições vão 
 ## Diagrama Arquitetural Simplificado
 
 ```mermaid
-graph LR;
+graph RL;
   subgraph layer-infra[Infraestrutura];
-    UI("Frontend (UI)") --> Controller
+    UI("Frontend (UI)") ---> Controller
     subgraph layer-adpaters[Adaptadores];
       Controller("Controllers") <--> UC
       subgraph layer-app[Aplicação];
-        UC(Casos de Uso) <--> Model
-        subgraph layer-entities[Domínio];
+        UC(Casos de Uso) <--> layer-entities
+        subgraph layer-entities["Entidades (Domínio)"];
           Model("Modelos")
           IPort("Interfaces das Portas (Gateways)")
         end
@@ -22,8 +22,8 @@ graph LR;
      Repo("Repositórios") -..-> |implementam| IPort
      HTTP("Clientes HTTP") -..-> |implementam| IPort
     end
-    BD("Bancos de Dados SQL") <--> Repo
-    EXT("APIs REST de IA") <--> HTTP
+    BD("Bancos de Dados SQL") --- Repo
+    EXT("APIs REST de IA") --- HTTP
   end
 
 classDef infra fill:#a3c9ff,stroke:#00315c,color:#00315c;
