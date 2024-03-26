@@ -3,7 +3,7 @@
 
 ## Sobre o Projeto
 
-Este repositório contém o código-fonte de uma RESTful API e seu respectivo Frontend (pasta `/docs`) desenvolvidos durante a Santander Dev Week 2024, uma iniciativa realizada através de uma parceria incrível entre a DIO e o Santander. Tecnicamente, este projeto foi construído utilizando Java 21 e Spring Boot 3, e aborda os seguintes temas ao longo de quatro dias de lives:
+Neste repositório, você encontrará o código-fonte de uma RESTful API e seu Frontend (pasta `/docs`), desenvolvidos durante a Santander Dev Week 2024, fruto de uma colaboração entre a DIO e o Santander. Este projeto, construído com Java 21 e Spring Boot 3, é o resultado de quatro dias de lives, com um propósito singular: permitir que os usuários interajam de maneira imersiva e personalizada com os campeões do League of Legends (LoL). Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs) Generativas, possibilitando que nossa API "entenda" a personalidade única de cada campeão para criar interações que capturam sua essência, tornando cada conversa uma experiência única e envolvente.
 
 ### Agenda das Lives
 
@@ -19,12 +19,6 @@ Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign pa
 - 28/03 às 19h | **Conversando com os Campeões do LoL com HTML, CSS e JavaScript:** 
 Construção da interface do usuário, interatividade e integração com a API através de fundamentos de HTML, frameworks CSS e JavaScript.
 
-### Links Úteis
-
-- [Inscrições para os Bootcamps Santander 2024](https://bit.ly/48S4DCy)
-- [Landing Page com a Agenda das Lives](https://pages.dio.me/santander-dev-week-2024)
-- [Certifique-se na plataforma DIO](https://bit.ly/3Pc64Fe)
-
 ## Como Participar dos Bootcamps Santander 2024
 
 Ainda não se inscreveu? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 2024](https://bit.ly/48S4DCy)** para uma experiência educacional completa, explorando em detalhes os temas abordados durante a Santander Dev Week 2024, incluindo:
@@ -33,6 +27,12 @@ Ainda não se inscreveu? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 
 2. [Certificação AWS Cloud Practitioner (CLF-C02)](https://web.dio.me/track/santander-2024-preparatorio-certificacao-aws)
 3. [Desenvolvimento de Jogos com Godot](https://web.dio.me/track/santander-2024-criando-jogos-com-godot) 
 4. [Fundamentos de IA Para Devs](https://web.dio.me/track/santander-2024-fundamentos-de-ia-para-devs) 
+
+### Links Úteis
+
+- [Landing Page com a Agenda das Lives da Santander Dev Week 2024](https://pages.dio.me/santander-dev-week-2024)
+- [Inscrições para os Bootcamps Santander 2024](https://bit.ly/48S4DCy)
+- [Certifique-se na plataforma DIO](https://bit.ly/3Pc64Fe)
 
 ## Arquitetura do Projeto
 
@@ -84,7 +84,9 @@ Refletindo a organização apresentada no diagrama arquitetural, a estrutura de 
     -   `ports/`: Estabelece as interfaces que delineiam os contratos para os adaptadores e serviços externos.
 -   `Application.java`: A classe principal que orquestra a configuração e o execução da aplicação.
 
-## Configuração Inicial do Banco de Dados
+### Banco de Dados SQL em Memória
+
+A utilização do banco de dados H2 neste projeto serve como uma fundação ágil e flexível para modelar nosso domínio de conhecimento — os campeões do League of Legends. Essa escolha permite uma rápida prototipação e um ambiente de desenvolvimento eficiente, essencial para armazenar e recuperar informações detalhadas sobre cada campeão. Dessa forma, garantimos que as IAs Generativas que integramos possam acessar um repositório rico e detalhado, permitindo-lhes capturar com precisão a essência e a personalidade única de cada campeão, enriquecendo assim a interatividade e a profundidade das interações realizadas.
 
 ```sql
 CREATE TABLE IF NOT EXISTS champions (
