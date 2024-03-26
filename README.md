@@ -10,15 +10,17 @@ Neste repositório, você encontrará o código-fonte de uma REST API e seu resp
 
 Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs) Generativas, possibilitando que nossa API "entenda" a personalidade única de cada campeão para criar interações que capturam sua essência, tornando cada conversa uma experiência única.
 
-### Agenda das Lives
+### Pré-Requisitos
 
 > [!TIP]
-> Pré-Requisitos (Caso Queira Reproduzir Este Projeto):
+> Caso queira reproduzir este projeto, você terá os seguintes pré-requisitos:
 > - Vontade de Aprender 😉
 > - Instalação da **[JDK 21](https://www.oracle.com/br/java/technologies/downloads/#java21)** (versão LTS do Java na data das lives);
 > - Instalação do **[IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download)** ou a IDE de sua preferência (Eclipse, VSCode etc);
 > - [Opcional] Conta na AWS (caso queira publicar a sua API REST na Nuvem usando o [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk);
 > - [Opcional] Conta na OpenAI e/ou Google para integração com os modelos [GPT](https://platform.openai.com/docs/api-reference/chat/create) e/ou [Gemini](https://ai.google.dev/tutorials/rest_quickstart#text-only_input) respectivamente.
+
+### Agenda das Lives
 
 - 25/03 às 19h | **Iniciando o seu Primeiro Projeto Java do Zero:** 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
@@ -33,10 +35,10 @@ Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign pa
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
 
 Mais detalhes disponíveis na [Landing Page Oficial da DIO com a Agenda das Lives da Santander Dev Week 2024](https://pages.dio.me/santander-dev-week-2024).
+ 
+## Como Participar dos Bootcamps Santander 2024
 
-> [!IMPORTANT]  
-> ## Como Participar dos Bootcamps Santander 2024
->
+> [!IMPORTANT] 
 > Ainda não garantiu a sua vaga? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 2024](https://bit.ly/48S4DCy)** para uma experiência educacional completa, explorando em detalhes os temas praticados durante a imersão da Santander Dev Week 2024. Nesse sentido, as opções de Bootcamps Santander disponíveis para matrícula na plataforma da DIO são:
 > 
 > 1. [Backend com Java e Spring Boot](https://web.dio.me/track/santander-2024-backend-com-java)
