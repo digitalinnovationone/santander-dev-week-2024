@@ -51,8 +51,6 @@ Sendo assim, a aplicação está organizada seguindo os princípios da [Clean Ar
   - `ports/` - Interfaces que definem os contratos para os adaptadores e serviços externos.
 - `Application.java` - Classe principal que inicia a aplicação.
 
-Esta estrutura promove a divisão das responsabilidades, facilitando a manutenção, testabilidade e a escalabilidade do sistema.
-
 ## Script Inicial do Banco de Dados SQL
 
 ```sql
