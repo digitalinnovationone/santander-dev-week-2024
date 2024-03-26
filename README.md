@@ -1,10 +1,43 @@
+
 # Santander Dev Week 2024
 
-RESTful API da Santander Dev Week 2024 construída em Java 21 com Spring Boot 3. Uma iniciativa fruto da parceria entre DIO e Santander para a divulgação dos Bootcamps Santander 2024.
+## Sobre o Projeto
 
-Ainda não se inscreveu!? Então corre que ainda da tempo, as inscrições vão até 08/04/2024: [Landing Page do Santander](https://l.dio.me/devweeksantander).
+Este repositório contém o código-fonte de uma RESTful API e seu respectivo Frontend (pasta `/docs`) desenvolvidos durante a Santander Dev Week 2024, uma iniciativa realizada através de uma parceria incrível entre a DIO e o Santander. Tecnicamente, este projeto foi construído utilizando Java 21 e Spring Boot 3, e aborda os seguintes temas ao longo de quatro dias de lives:
 
-## Diagrama Arquitetural Simplificado
+### Agenda das Lives
+
+- 25/03 às 19h | **Iniciando o seu Primeiro Projeto Java do Zero:** 
+Aprendizado dos fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
+
+- 26/03 às 19h | **Criando uma API com os Campeões do League of Legends:** 
+Criação de APIs REST, abordando design, desenvolvimento e documentação, com foco em campeões do League of Legends. Publicação da API no AWS Elastic Beanstalk.
+
+- 27/03 às 19h | **Potencializando sua API com Inteligência Artificial (IA):** 
+Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
+
+- 28/03 às 19h | **Conversando com os Campeões do LoL com HTML, CSS e JavaScript:** 
+Construção da interface do usuário, interatividade e integração com a API através de fundamentos de HTML, frameworks CSS e JavaScript.
+
+### Links Úteis
+
+- [Inscrições para os Bootcamps Santander 2024](https://bit.ly/48S4DCy)
+- [Landing Page com a Agenda das Lives](https://pages.dio.me/santander-dev-week-2024)
+- [Certifique-se na plataforma DIO](https://bit.ly/3Pc64Fe)
+
+## Como Participar dos Bootcamps Santander 2024
+
+Ainda não se inscreveu? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 2024](https://bit.ly/48S4DCy)** para uma experiência educacional completa, explorando em detalhes os temas abordados durante a Santander Dev Week 2024, incluindo:
+
+1. [Backend com Java e Spring Boot](https://web.dio.me/track/santander-2024-backend-com-java)
+2. [Certificação AWS Cloud Practitioner (CLF-C02)](https://web.dio.me/track/santander-2024-preparatorio-certificacao-aws)
+3. [Desenvolvimento de Jogos com Godot](https://web.dio.me/track/santander-2024-criando-jogos-com-godot) 
+4. [Fundamentos de IA Para Devs](https://web.dio.me/track/santander-2024-fundamentos-de-ia-para-devs) 
+
+## Arquitetura do Projeto
+
+### Diagrama Arquitetural
+A seguir, apresentamos o diagrama arquitetural do projeto (escrito com [Mermaid](https://mermaid.js.org/)), destacando a separação das responsabilidades entre as camadas. Desde a interface de usuário até os mecanismos de interação com sistemas externos, passando por adaptadores, casos de uso e as entidades centrais do domínio, cada elemento é estrategicamente posicionado para reforçar a modularidade, a escalabilidade e a manutenibilidade do sistema. Esta estrutura facilita a compreensão de como os componentes colaboram para a realização dos objetivos do software, alinhando-se aos princípios da [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) (inclusive nas cores dos elementos).
 
 ```mermaid
 graph RL;
@@ -37,21 +70,21 @@ class UC ucs;
 class Model,IPort entities;
 ```
 
-## Estrutura de Diretórios
+### Estrutura de Diretórios
 
-Sendo assim, a aplicação está organizada seguindo os princípios da [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html), com o objetivo de separar as responsabilidades de maneira clara e promover a independência das camadas. Abaixo está a estrutura de diretórios adotada:
+Refletindo a organização apresentada no diagrama arquitetural, a estrutura de diretórios do projeto sugere uma Clean Architecture simplificada, visando a uma clara separação das responsabilidades e promovendo a autonomia das camadas em um projeto Spring Boot. Esta abordagem estrutural não só facilita a manutenção e a evolução do código, mas também sustenta a integração e a colaboração eficaz entre as diferentes partes da aplicação. A seguir, detalhamos a disposição dos diretórios que compõem a aplicação, cada um desempenhando um papel específico dentro do ecossistema de software:
 
-- `adapters/` - Contém os adaptadores que interagem com mecanismos externos ou recebem requisições do usuário.
-  - `in/` - Adaptadores de entrada, como controladores REST, responsáveis por receber as requisições dos usuários.
-  - `out/` - Adaptadores de saída, para interação com bancos de dados e APIs externas.
-- `application/` - Define os casos de uso da aplicação, encapsulando a lógica de negócios.
-- `domain/` - O núcleo da aplicação, incluindo entidades, exceções e interfaces (portas) que definem as regras de negócio.
-  - `exception/` - Exceções personalizadas do domínio.
-  - `model/` - Modelos de entidades do domínio.
-  - `ports/` - Interfaces que definem os contratos para os adaptadores e serviços externos.
-- `Application.java` - Classe principal que inicia a aplicação.
+-   `adapters/`: Inclui os adaptadores que facilitam a comunicação entre a aplicação e o mundo externo (único diretório que "conhece" o Spring).
+    -   `in/`: Abriga os adaptadores de entrada, tais como controladores REST, que lidam com as requisições dos usuários.
+    -   `out/`: Contém os adaptadores de saída, responsáveis da interação com bancos de dados e APIs externas, por exemplo.
+-   `application/`: Hospeda os casos de uso da aplicação, encapsulando a lógica de negócios essencial.
+-   `domain/`: Representa o coração da aplicação, englobando entidades, exceções e interfaces (portas) que articulam as regras de negócio fundamentais.
+    -   `exception/`: Define as exceções personalizadas pertinentes ao domínio.
+    -   `model/`: Modela as entidades do domínio, refletindo os conceitos centrais da aplicação.
+    -   `ports/`: Estabelece as interfaces que delineiam os contratos para os adaptadores e serviços externos.
+-   `Application.java`: A classe principal que orquestra a configuração e o execução da aplicação.
 
-## Script Inicial do Banco de Dados SQL
+## Configuração Inicial do Banco de Dados
 
 ```sql
 CREATE TABLE IF NOT EXISTS champions (
@@ -76,3 +109,13 @@ INSERT INTO champions (name, role, lore, image_url) VALUES
     ('Garen', 'Lutador', 'Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida. Popular entre seus companheiros e respeitado o suficiente por seus inimigos, sua reputação é nada mais do que o esperado de um herdeiro da prestigiosa família Stemmaguarda, encarregada de defender Demacia e seus ideais. Vestido com uma armadura resistente à magia e empunhando uma poderosa espada, Garen está sempre pronto para confrontar magos e feiticeiros no campo de batalha, em um verdadeiro furacão de aço virtuoso.', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg'),
     ('Teemo', 'Atirador', 'Indiferente até aos obstáculos mais perigosos e ameaçadores, Teemo vasculha o mundo com infinito entusiasmo e animação. Um yordle com uma inabalável moral que se orgulha de seguir o Código dos Escoteiros de Bandópolis, às vezes com tanta dedicação que não se toca das possíveis consequências de suas ações. Embora alguns duvidem da existência dos escoteiros, uma coisa é certa: nunca se deve duvidar das convicções de Teemo.', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg');
 ```
+
+## Contribuições
+
+Contribuições são sempre bem-vindas! Veja como você pode contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch com suas modificações: `git checkout -b minha-nova-feature`.
+3. Faça commit das suas alterações: `git commit -am 'Adicionando uma nova feature'`.
+4. Push para a branch: `git push origin minha-nova-feature`.
+5. Envie um pull request.
