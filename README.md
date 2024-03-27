@@ -24,20 +24,18 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 
 ### Agenda das Lives
 
-- 25/03 às 19h | **Iniciando o seu Primeiro Projeto Java do Zero:** 
+- 25/03 às 19h | **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024):** 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
 
-- 26/03 às 19h | **Criando uma API com os Campeões do League of Legends:** 
+- 26/03 às 19h | **[Criando uma API com os Campeões do League of Legends](https://web.dio.me/lives/criando-uma-api-com-os-campeoes-do-league-of-legends-santander-dev-week-2024):** 
 Criação de uma API REST, abordando design, desenvolvimento e documentação, com foco em campeões do League of Legends. Publicação da API no AWS Elastic Beanstalk.
 
-- 27/03 às 19h | **Potencializando sua API com Inteligência Artificial (IA):** 
+- 27/03 às 19h | **[Potencializando sua API com Inteligência Artificial (IA)](https://web.dio.me/lives/potencializando-sua-api-com-inteligencia-artificial-ia-santander-dev-week-2024):** 
 Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
 
-- 28/03 às 19h | **Conversando com os Campeões do LoL com HTML, CSS e JavaScript:** 
+- 28/03 às 19h | **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024):** 
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
 
-Mais detalhes disponíveis na [Landing Page Oficial da DIO com a Agenda das Lives da Santander Dev Week 2024](https://pages.dio.me/santander-dev-week-2024).
- 
 ## Como Participar dos Bootcamps Santander 2024
 
 > [!IMPORTANT] 
