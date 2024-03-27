@@ -19,6 +19,8 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 > - Instalação do **[IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download)** ou a IDE de sua preferência (Eclipse, VSCode etc);
 > - [Opcional] Conta na AWS (caso queira publicar a sua API REST na Nuvem usando o [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk);
 > - [Opcional] Conta na OpenAI e/ou Google para integração com os modelos [GPT](https://platform.openai.com/docs/api-reference/chat/create) e/ou [Gemini](https://ai.google.dev/tutorials/rest_quickstart#text-only_input) respectivamente.
+>
+> _Nossa querida a Aline Antunes ([@alinealien](https://github.com/alinealien)), gravou dois tutoriais rápidos para quem está com dificuldades na instalação da [JDK 21](https://www.youtube.com/watch?v=3TLv67ihDvo) e [IntelliJ](https://www.youtube.com/watch?v=3TLv67ihDvo). Muito obrigado Aline_ 👊😀
 
 ### Agenda das Lives
 
