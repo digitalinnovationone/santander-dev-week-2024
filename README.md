@@ -1,9 +1,9 @@
 
 # Santander Dev Week 2024
 
-## Sobre o Projeto
+## 📚 Sobre o Projeto
 
-Neste repositório, você encontrará o código-fonte de uma REST API e seu respectivo Frontend (pasta `/docs`), desenvolvidos durante a Santander Dev Week 2024, fruto de uma colaboração entre a DIO e o Santander. Este projeto, construído com Java 21 e Spring Boot 3, é o resultado de quatro dias de lives, com um propósito singular: 
+Neste repositório, você encontrará o código-fonte de uma REST API e seu respectivo Frontend (pasta `/docs`), desenvolvidos durante a Santander Dev Week 2024, fruto de uma colaboração entre a DIO e o Santander. Este projeto, construído com Java 21 e Spring Boot 3, é o resultado de quatro dias de lives, com um propósito incrível: 
 
 > [!NOTE]
 > Objetivo: "Permitir que os usuários conversem com os campeões do League of Legends (LOL)".
@@ -20,23 +20,20 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 > - [Opcional] Conta na AWS (caso queira publicar a sua API REST na Nuvem usando o [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk);
 > - [Opcional] Conta na OpenAI e/ou Google para integração com os modelos [GPT](https://platform.openai.com/docs/api-reference/chat/create) e/ou [Gemini](https://ai.google.dev/tutorials/rest_quickstart#text-only_input) respectivamente.
 >
-> _Nossa querida a Aline Antunes ([@alinealien](https://github.com/alinealien)), gravou dois tutoriais rápidos para quem está com dificuldades na instalação da [JDK 21](https://www.youtube.com/watch?v=3TLv67ihDvo) e [IntelliJ](https://www.youtube.com/watch?v=3TLv67ihDvo). Muito obrigado Aline_ 👊😀
+> _Nossa querida a Aline Antunes ([@alinealien](https://github.com/alinealien)), gravou dois tutoriais rápidos para quem está com dificuldades na instalação da [JDK 21](https://www.youtube.com/watch?v=3TLv67ihDvo) e [IntelliJ](https://www.youtube.com/watch?v=3TLv67ihDvo). Muito obrigado Aline!_
 
-### Agenda das Lives
+### Perdeu Alguma Live? Acesse os Links Abaixo e Gere Seus Certificados 🏆
 
-- 25/03 às 19h | **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024):** 
+1. **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024)** | 25/03 às 19h: 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
-
-- 26/03 às 19h | **[Criando uma API com os Campeões do League of Legends](https://web.dio.me/lives/criando-uma-api-com-os-campeoes-do-league-of-legends-santander-dev-week-2024):** 
+2. **[Criando uma API com os Campeões do League of Legends](https://web.dio.me/lives/criando-uma-api-com-os-campeoes-do-league-of-legends-santander-dev-week-2024)** | 26/03 às 19h:
 Criação de uma API REST, abordando design, desenvolvimento e documentação, com foco em campeões do League of Legends. Publicação da API no AWS Elastic Beanstalk.
-
-- 27/03 às 19h | **[Potencializando sua API com Inteligência Artificial (IA)](https://web.dio.me/lives/potencializando-sua-api-com-inteligencia-artificial-ia-santander-dev-week-2024):** 
+3. **[Potencializando sua API com Inteligência Artificial (IA)](https://web.dio.me/lives/potencializando-sua-api-com-inteligencia-artificial-ia-santander-dev-week-2024)** | 27/03 às 19h: 
 Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
-
-- 28/03 às 19h | **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024):** 
+4. **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024)** | 28/03 às 19h:
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
 
-## Como Participar dos Bootcamps Santander 2024
+## ♨️ Como Participar dos Bootcamps Santander 2024
 
 > [!IMPORTANT] 
 > Ainda não garantiu a sua vaga? **Inscreva-se até 08/04/2024 nos [Bootcamps Santander 2024](https://bit.ly/48S4DCy)** para uma experiência educacional completa, explorando em detalhes os temas praticados durante a imersão da Santander Dev Week 2024. Nesse sentido, as opções de Bootcamps Santander disponíveis para matrícula na plataforma da DIO são:
@@ -46,7 +43,7 @@ Construção da interface do usuário, interatividade e integração com a API e
 > 3. [Desenvolvimento de Jogos com Godot](https://web.dio.me/track/santander-2024-criando-jogos-com-godot) 
 > 4. [Fundamentos de IA Para Devs](https://web.dio.me/track/santander-2024-fundamentos-de-ia-para-devs) 
 
-## Arquitetura do Projeto
+## 🏛️ Arquitetura do Projeto
 
 ### Diagrama Arquitetural
 A seguir, apresentamos o diagrama arquitetural do projeto (escrito com [Mermaid](https://mermaid.js.org/)), destacando a separação das responsabilidades entre as camadas. Desde a interface de usuário até os mecanismos de interação com sistemas externos, passando por adaptadores, casos de uso e as entidades centrais do domínio, cada elemento é estrategicamente posicionado para reforçar a modularidade, a escalabilidade e a manutenibilidade do sistema. Esta estrutura facilita a compreensão de como os componentes colaboram para a realização dos objetivos do software, alinhando-se aos princípios da [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) (inclusive nas cores dos elementos).
@@ -124,7 +121,7 @@ INSERT INTO champions (name, role, lore, image_url) VALUES
     ('Teemo', 'Atirador', 'Indiferente até aos obstáculos mais perigosos e ameaçadores, Teemo vasculha o mundo com infinito entusiasmo e animação. Um yordle com uma inabalável moral que se orgulha de seguir o Código dos Escoteiros de Bandópolis, às vezes com tanta dedicação que não se toca das possíveis consequências de suas ações. Embora alguns duvidem da existência dos escoteiros, uma coisa é certa: nunca se deve duvidar das convicções de Teemo.', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg');
 ```
 
-## Contribuições
+## 👩‍💻 Contribuições
 
 Contribuições são sempre bem-vindas! Veja como você pode contribuir:
 
