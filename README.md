@@ -22,7 +22,7 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 >
 > _Nossa querida a Aline Antunes ([@alinealien](https://github.com/alinealien)), gravou dois tutoriais rápidos para quem está com dificuldades na instalação da [JDK 21](https://www.youtube.com/watch?v=3TLv67ihDvo) e [IntelliJ](https://www.youtube.com/watch?v=3TLv67ihDvo). Muito obrigado Aline!_
 
-### Perdeu Alguma Live? Acesse os Links Abaixo e Gere Seus Certificados 🏆
+### Perdeu Alguma Live? Acesse os Links Abaixo e Gere Seus Certificados 🎓
 
 1. **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024)** | 25/03 às 19h: 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
