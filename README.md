@@ -22,7 +22,10 @@ Para isso, utilizamos algumas das mais recentes Inteligências Artificiais (IAs)
 >
 > _Nossa querida a Aline Antunes ([@alinealien](https://github.com/alinealien)), gravou dois tutoriais rápidos para quem está com dificuldades na instalação da [JDK 21](https://www.youtube.com/watch?v=3TLv67ihDvo) e [IntelliJ](https://www.youtube.com/watch?v=3TLv67ihDvo). Muito obrigado Aline!_
 
-### Perdeu Alguma Live? Acesse os Links Abaixo e Gere Seus Certificados 🎓
+### Lives da Santander Dev Week 2024
+
+Perdeu alguma das lives que rolaram na Dev Week? Não tem problema! 
+Acesse os links abaixo e garanta seus **CERTIFICADOS**!
 
 1. **[Iniciando o seu Primeiro Projeto Java do Zero](https://web.dio.me/lives/iniciando-o-seu-primeiro-projeto-java-do-zero-santander-dev-week-2024)** | 25/03 às 19h: 
 Fundamentos da linguagem de programação Java e configurações de projetos Spring Boot. Foco em Programação Orientada a Objetos e sua relação com Bancos de Dados SQL através do Spring Data JDBC.
@@ -32,6 +35,11 @@ Criação de uma API REST, abordando design, desenvolvimento e documentação, c
 Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
 4. **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024)** | 28/03 às 19h:
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
+
+> Passo a passo para gerar seus **CERTIFICADOS**:
+> - Na plataforma da DIO, ao acessar a live, basta clicar no botão "Concluir atividade".
+> - Depois, é só clicar na sua foto de perfil e selecionar a opção "Certificados".
+> - Pronto! Agora é só baixar seus certificados e compartilhar conosco seu feedback!
 
 ## ♨️ Como Participar dos Bootcamps Santander 2024
 
