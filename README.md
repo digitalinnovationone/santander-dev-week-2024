@@ -35,6 +35,7 @@ Criação de uma API REST, abordando design, desenvolvimento e documentação, c
 Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign para integração com APIs de IA de grandes provedores, como OpenAI (GPT) e Google (Gemini).
 4. **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024)** | 28/03 às 19h:
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
+    - Material Complementar Desta Live no [Notion do Felipão](https://helpful-jump-17b.notion.site/Santander-Dev-Week-24-Integra-o-945ebd16b5e3462a9561b6beb6d7587d?pvs=4) 📰
 
 _Passo a passo para gerar seus **CERTIFICADOS** na plataforma da DIO:_
 - _Ao acessar a live pelo link, basta clicar no botão "Concluir atividade";_
