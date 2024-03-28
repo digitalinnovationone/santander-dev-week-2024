@@ -36,10 +36,10 @@ Incorporação de IA para otimizar a API, utilizando o Spring Cloud OpenFeign pa
 4. **[Conversando com os Campeões do LoL com HTML, CSS e JavaScript](https://web.dio.me/lives/conversando-com-os-campeoes-do-lol-com-html-css-e-javascript-santander-dev-week-2024)** | 28/03 às 19h:
 Construção da interface do usuário, interatividade e integração com a API explorando os fundamentos de HTML, CSS e JavaScript.
 
-> Passo a passo para gerar seus **CERTIFICADOS**:
-> - Na plataforma da DIO, ao acessar a live, basta clicar no botão "Concluir atividade".
-> - Depois, é só clicar na sua foto de perfil e selecionar a opção "Certificados".
-> - Pronto! Agora é só baixar seus certificados e compartilhar conosco seu feedback!
+_Passo a passo para gerar seus **CERTIFICADOS** na plataforma da DIO:_
+- _Ao acessar a live pelo link, basta clicar no botão "Concluir atividade";_
+- _Depois, é só clicar na sua foto de perfil e selecionar a opção "Certificados";_
+- _Pronto! Agora é só baixar seus certificados e compartilhar conosco seu feedback!_
 
 ## ♨️ Como Participar dos Bootcamps Santander 2024
 
