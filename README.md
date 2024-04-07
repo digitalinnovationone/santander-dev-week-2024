@@ -135,9 +135,9 @@ INSERT INTO champions (name, role, lore, image_url) VALUES
 Gostaríamos de compartilhar com vocês os custos relacionadas a implantação da nossa API no AWS Elastic Beanstalk. Para isso, fizemos a implantação simultaneamente em 2 regiões ("São Paulo" e "N. Virginia"). Com isso, conseguimos comparar os custos e identificar que em "N. Virginia", considerando 142h de execução, os custos foram consideravelmente mais baixos:
 
 - 💸 **$3.39 → São Paulo (SA East)**: configuração que fizemos nas lives:
-  - DNS que usamos: http://sdw24.sa-east-1.elasticbeanstalk.com/swagger-ui.html
+  - DNS: http://sdw24.sa-east-1.elasticbeanstalk.com/swagger-ui.html
 - 💸 **$2.34 → N. Virginia (US East)**: adicionamos a configuração `server.servlet.context-path=/lol-api/` no application.yml:
-  - DNS que usamos: http://sdw24.us-east-1.elasticbeanstalk.com/lol-api/swagger-ui.html
+  - DNS: http://sdw24.us-east-1.elasticbeanstalk.com/lol-api/swagger-ui.html
 
 Os detalhes dos custos, em ambas regiões, podem ser visualizados [neste relatório](https://github.com/digitalinnovationone/santander-dev-week-2024/files/14897222/BillingAWS.pdf). Nesse sentido, para evitar custos recorrentes iremos derrubar essas instâncias, mas todo processo de criação e publicação está disponível em nossas lives 😉
 
