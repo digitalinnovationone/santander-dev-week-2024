@@ -130,7 +130,7 @@ INSERT INTO champions (name, role, lore, image_url) VALUES
     ('Teemo', 'Atirador', 'Indiferente até aos obstáculos mais perigosos e ameaçadores, Teemo vasculha o mundo com infinito entusiasmo e animação. Um yordle com uma inabalável moral que se orgulha de seguir o Código dos Escoteiros de Bandópolis, às vezes com tanta dedicação que não se toca das possíveis consequências de suas ações. Embora alguns duvidem da existência dos escoteiros, uma coisa é certa: nunca se deve duvidar das convicções de Teemo.', 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg');
 ```
 
-## Custos na AWS
+## 🌐 Custos na AWS
 
 Gostaríamos de compartilhar com vocês os custos relacionadas a implantação da nossa API no AWS Elastic Beanstalk. Para isso, fizemos a implantação simultaneamente em 2 regiões ("São Paulo" e "N. Virginia"). Com isso, conseguimos comparar os custos e identificar que em "N. Virginia", considerando 142h de execução, os custos foram consideravelmente mais baixos:
 
